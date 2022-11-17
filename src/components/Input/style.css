@@ -1,0 +1,28 @@
+.input{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    padding-top: .2rem;
+    border-bottom: 1px solid #9f89ad2d;
+
+}
+.input > svg {
+    font-size: .9rem;
+    color: #8647AD;
+    margin-right: .5rem;
+}
+.input input{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    color: #ffffff;
+    padding: 1rem 0;
+}
+.input > input::placeholder{
+    font-size: 1rem;
+    color: #FFFFFF;
+}

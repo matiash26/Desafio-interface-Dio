@@ -1,0 +1,83 @@
+
+.cards{
+    max-width: 368px;
+    width: 100%;
+    height: 500px;
+    background-color: #161221;
+    color: #FFFFFF;
+
+    padding: 1rem;
+    border-radius: .5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    position: relative;
+    right: .250rem;
+    bottom: .250rem;
+    transition: 200ms;
+}
+.cards:hover{
+    right: .5rem;
+    transition: 200ms;
+}
+.cards h1{
+    font-size: 2.7rem;
+    font-weight: 400;
+    width: 80%;
+}
+.atividades ul{
+    padding-left: 1.3rem;
+    padding-top: .7rem;
+}
+.atividades ul li {
+    font-size: 1rem;
+    margin: 1rem 0;
+    color: #848F92;
+    list-style: none;
+}
+.atividades ul li::before{
+    content: "•";
+    font-size: .8rem;
+    margin-right: .4rem;
+}
+.cards > a {
+    text-decoration: none;
+    width: 100%;
+    height: 55px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid #E4105D;
+    border-radius: .7rem;
+    font-size: 1.4rem;
+    color: #ffffff;
+    font-weight: 700;
+}
+.cards > a:hover{
+    background-color: #E4105D;
+}
+.backSlide{
+    max-width: 368px;
+    height: 500px;
+    border-radius: .6rem;
+    background: linear-gradient(90deg, rgb(164, 77, 218) 43.75%, rgb(228, 16, 93) 100%);
+}
+.atividade-projetos > div{
+    display: flex;
+    padding-left: 1rem;
+    align-items: flex-start;
+
+}
+.atividade-projetos svg {
+    color: #E4105D;
+    font-size: .9rem;
+    margin-right: .2rem;
+}
+.atividade-projetos span{
+    font-size: .8rem;
+    color: rgba(255, 255, 255, 0.753);
+}
