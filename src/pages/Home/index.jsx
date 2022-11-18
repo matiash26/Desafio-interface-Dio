@@ -63,14 +63,49 @@ const Home = () => {
                     <div className="slider">
                         <div className="slides">
                             <div className="slide">
-                                <Cards title="Carreira Back-end" />
-                                <Cards title="Carreira 01" />
-                                <Cards title="Carreira 02" />
-                                <Cards title="Carreira 03" />
-                                <Cards title="Carreira 04" />
-                                <Cards title="Carreira 05" />
-                                <Cards title="Carreira 06" />
-                                <Cards title="Carreira 07" />
+                                <Cards title="Carreira Back-end"
+                                    projeto="124" atividade="27">
+                                    <li>Formação Java Developer</li>
+                                    <li>Formação .NET Developer</li>
+                                    <li>Formação Angular Developerr</li>
+                                    <li>Formação React Developer</li>
+                                    <li>Formação PHP Experience</li>
+                                </Cards>
+                                <Cards title="Carreira Front-end"
+                                    projeto="107" atividade="23">
+                                    <li>Formação HTML Web Developer</li>
+                                    <li>Formação CSS Web Developer</li>
+                                    <li>Formação JavaScript Developer</li>
+                                    <li>Formação TypeScript Fullstack Developer</li>
+                                    <li>Formação Programação Reativa com Spring WebFlux</li>
+                                </Cards>
+                                <Cards title="Carreira Mobile"
+                                    projeto="80" atividade="16">
+                                    <li>Formação Android Developer</li>
+                                    <li>Formação Flutter Specialist</li>
+                                    <li>Formação Swift & iOS Experience</li>
+                                </Cards>
+                                <Cards title="Carreira Infra e DevOps"
+                                    projeto="41" atividade="6">
+                                    <li>Formação Linux Fundamentals</li>
+                                    <li>Formação Docker Fundamentals</li>
+                                    <li>Formação Kubernetes Fundamentals</li>
+                                </Cards>
+                                <Cards title="Carreira do Futuro"
+                                    projeto="88" atividade="17">
+                                    <li>Formação Machine Learning Specialist</li>
+                                    <li>Formação Blockchain Specialist</li>
+                                    <li>Formação Game Developer: Roblox & Metaverse</li>
+                                    <li>Formação Scrum Master Certification</li>
+                                </Cards>
+                                <Cards title="Carreira Qualidade de Software"
+                                projeto="20" atividade="6">
+                                    <li>Formação Quality Assurance (QA) Experience</li>
+                                </Cards>
+                                <Cards title="Carreira Dados"
+                                projeto="26" atividade="7">
+                                    <li>Formação SQL Database Specialist</li>
+                                </Cards>
                             </div>
                         </div>
                     </div>
